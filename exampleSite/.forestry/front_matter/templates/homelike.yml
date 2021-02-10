@@ -1,0 +1,123 @@
+---
+label: Homelike
+hide_body: true
+fields:
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: file
+    name: bg_image
+    label: bg_image
+  - type: boolean
+    name: bg_overlay
+    label: bg_overlay
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: content
+    label: content
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: about
+  label: about
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description
+  - type: textarea
+    name: content
+    label: content
+  - type: file
+    name: image
+    label: image
+- type: field_group
+  name: portfolio
+  label: portfolio
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: file
+    name: bg_image
+    label: bg_image
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: funfacts
+  label: funfacts
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+  - type: field_group_list
+    name: funfact_item
+    label: funfact_item
+    fields:
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: count
+      label: count
+  - type: field_group_list
+    name: testimonial_slider
+    label: testimonial_slider
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: designation
+      label: designation
+    - type: text
+      name: content
+      label: content
