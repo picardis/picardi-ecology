@@ -174,11 +174,6 @@ name = "Outreach"
 URL = "outreach"
 weight = 6
 
-[[Languages.en.menu.main]]
-name = "Software"
-URL = "software"
-weight = 7
-
 # footer menu
 
 [[Languages.en.menu.footer]]
@@ -227,12 +222,6 @@ URL = "insegnamento"
 name = "Divulgazione"
 URL = "divulgazione"
 weight = 6
-
-[[Languages.it.menu.main]]
-name = "Software"
-URL = "software"
-weight = 7
-
 
 # footer menu
 [[Languages.it.menu.footer]]
