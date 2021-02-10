@@ -121,5 +121,3 @@ fields:
     - type: text
       name: content
       label: content
-pages:
-- exampleSite/data/en/_index.md
