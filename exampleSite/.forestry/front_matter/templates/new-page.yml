@@ -22,5 +22,3 @@ fields:
     schema:
       format: markdown
   label: body
-pages:
-- exampleSite/content/english/research/research.md
