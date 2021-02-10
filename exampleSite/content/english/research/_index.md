@@ -1,7 +1,7 @@
 ---
 title: Research
 description: this is meta description
-bg_image: "/images/trhe_small.png"
+bg_image: "/images/flying_wost.jpg"
 
 ---
 # Recent Projects
