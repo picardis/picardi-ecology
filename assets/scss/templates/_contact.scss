@@ -16,6 +16,29 @@
       }
     }
 
+    .form-group-2 {
+      margin-bottom: 13px;
+
+      textarea {
+        background: #F6F8FA;
+        height: 135px;
+        border: 1px solid #EEF2F6;
+        box-shadow: none;
+        width: 100%;
+      }
+    }
+
+    button {
+      width: 100%;
+      height: 60px;
+      background: #47424C;
+      border: none;
+      color: #fff;
+      font-size: 18px;
+    }
+  }
+}
+
 
 .address-block {
   li {
