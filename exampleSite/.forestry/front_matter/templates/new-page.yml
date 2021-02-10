@@ -24,3 +24,4 @@ fields:
   label: body
 pages:
 - exampleSite/content/english/pages/research.md
+- exampleSite/content/english/research/research.md
