@@ -4,7 +4,7 @@ description: this is meta description
 bg_image: "/images/trhe_small.png"
 
 ---
-# Completed Projects
+# Recent Projects
 
 ## Partial migration in wood storks in the southeastern U.S. and implications for population persistence
 
