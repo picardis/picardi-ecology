@@ -1,9 +1,9 @@
 ---
 title: Research
-description: this is meta description
+description: " "
 bg_image: "/images/flying_wost.jpg"
-
 ---
+
 # Recent Projects
 
 ## Partial migration in wood storks in the southeastern U.S. and implications for population persistence
