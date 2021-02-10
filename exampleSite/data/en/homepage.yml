@@ -1,111 +1,79 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/slider-bg.jpg"
+  bg_image : "images/wost.jpg"
   bg_overlay : true
-  title : "A Digital Marketing <br/> & Design Agency"
-  content : "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
+  title : "PICARDI ECOLOGY" # Movement Ecology<br/>& Reproducible Data Science
+  content : "Movement Ecology & Reproducible Data Science"
   button:
-    enable : true
-    label : "Discover Our Project"
-    link : "project"
+    enable : false
+    label : "Learn More"
+    link : "research"
 
 ############################# About #################################
 about:
   enable : true
-  title : "About Us"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id."
-  image : "images/wrapper-img.png"
-
+  title : "Simona Picardi"
+  description : "I am a Movement Ecologist based in the U.S. My work focuses on quantifying animal movement patterns to reveal underlying behaviors, examine how those translate into fitness, and inform wildlife conservation and management."
+  content : "My recent work has focused on endangered and threatened bird species across North America. I use new technologies, cutting-edge analytical tools, and big data approaches to improve our understanding of movement as a behavioral adaptation to dynamic environments."
+  image : "images/circleme.png"
 
 ######################### Portfolio ###############################
 portfolio:
   enable : true
-  bg_image : "images/featue-bg.jpg"
-  title : "WE BELIEVE IN GREAT IDEAS"
+  bg_image : "images/flying-wost.jpg"
+  title : "RESEARCH"
   content : "
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+  In today’s rapidly changing world, wildlife are facing anthropogenic pressures increasing at a fast pace. As a movement ecologist, I study animal movement to understand how individuals and populations ecologically adjust and evolutionarily adapt to a changing environment.
 
 
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  My research integrates empirical approaches, theoretical advancements, and analytical innovations to uncover behavioral processes underlying movement patterns across spatio-temporal scales. This information can help us better conserve imperiled species.
   "
   button:
     enable : true
-    label : "View Works"
-    link : "project"
+    label : "Learn More"
+    link : "research"
 
-
-############################# Service ############################
-service:
-  enable : true
-  # service content comes from "data/*/service.yml" file
-
-
-############################ call to action ###########################
-cta:
-  enable : true
-  bg_image : "images/call-to-action-bg.jpg"
-  title : "We design delightful digital experiences."
-  content : "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
-  button:
-    enable : true
-    label : "Tell Us Your Story"
-    link : "contact"
 
 ############################# Funfacts ###############################
 funfacts:
   enable : true
-  title : "Fun Facts About Us"
-  description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
+  title : "Activities"
+  description : "Research, Teaching, Outreach"
   funfact_item:
     # funfacts item loop
     - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Cups Of Coffee"
-      count : "99"
+      name : "Research Presentations"
+      count : "27"
       
     # funfacts item loop
     - icon : "ion-ios-glasses-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Article Written"
-      count : "45"
+      name : "Papers Published"
+      count : "6"
       
     # funfacts item loop
     - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Projects Completed"
-      count : "125"
+      name : "Academic Courses"
+      count : "2"
       
     # funfacts item loop
     - icon : "ion-ios-timer-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Combined Projects"
-      count : "200"
+      name : "Ongoing Projects"
+      count : "8"
 
   testimonial_slider:
     # testimonial item loop
-    - name : "Raymond Roy"
-      image : "images/clients/avater-1.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
+    - name : "Student"
+      designation : "Reproducible Data Science Course"
+      content : "bla"
                 
     # testimonial item loop
-    - name : "Randi Renin"
-      image : "images/clients/avater-1.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
+    - name : "Student"
+      designation : "Data Carpentry Workshop"
+      content : "bla"
                 
     # testimonial item loop
-    - name : "Rose Rio"
-      image : "images/clients/avater-3.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
+    - name : "Student"
+      designation : "Next Generation Data Mgmt in Movement Ecology Course"
+      content : "bla"
