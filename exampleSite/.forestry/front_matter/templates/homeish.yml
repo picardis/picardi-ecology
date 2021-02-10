@@ -1,0 +1,273 @@
+---
+label: Homeish
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: baseURL
+- type: text
+  name: title
+  label: title
+- type: text
+  name: theme
+  label: theme
+- type: text
+  name: themesDir
+  label: themesDir
+- type: text
+  name: paginate
+  label: paginate
+- type: text
+  name: summaryLength
+  label: summaryLength
+- type: text
+  name: disqusShortname
+  label: disqusShortname
+- type: list
+  name: disableLanguages
+  label: disableLanguages
+- type: field_group
+  name: outputs
+  label: outputs
+  fields:
+  - type: list
+    name: home
+    label: home
+- type: field_group
+  name: markup
+  label: markup
+  fields:
+  - type: field_group
+    name: goldmark
+    label: goldmark
+    fields:
+    - type: field_group
+      name: renderer
+      label: renderer
+      fields:
+      - type: boolean
+        name: unsafe
+        label: unsafe
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: field_group
+    name: plugins
+    label: plugins
+    fields:
+    - type: field_group_list
+      name: css
+      label: css
+      fields:
+      - type: text
+        name: link
+        label: link
+      - type: text
+        name: attributes
+        label: attributes
+    - type: field_group_list
+      name: js
+      label: js
+      fields:
+      - type: text
+        name: link
+        label: link
+      - type: text
+        name: attributes
+        label: attributes
+  - type: field_group
+    name: widgets
+    label: widgets
+    fields:
+    - type: list
+      name: sidebar
+      label: sidebar
+  - type: file
+    name: logo
+    label: logo
+  - type: text
+    name: logo_width
+    label: logo_width
+  - type: text
+    name: description
+    label: description
+  - type: text
+    name: author
+    label: author
+  - type: text
+    name: email
+    label: email
+  - type: text
+    name: location
+    label: location
+  - type: text
+    name: contact_form_action
+    label: contact_form_action
+  - type: text
+    name: google_analitycs_id
+    label: google_analitycs_id
+  - type: boolean
+    name: multi_author
+    label: multi_author
+  - type: field_group
+    name: preloader
+    label: preloader
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: preloader
+      label: preloader
+  - type: field_group
+    name: nav_button
+    label: nav_button
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+  - type: field_group
+    name: gmap
+    label: gmap
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: gmap_api
+      label: gmap_api
+    - type: text
+      name: map_latitude
+      label: map_latitude
+    - type: text
+      name: map_longitude
+      label: map_longitude
+    - type: file
+      name: map_marker
+      label: map_marker
+  - type: field_group
+    name: cookies
+    label: cookies
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+  - type: field_group_list
+    name: social
+    label: social
+    fields:
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: Languages
+  label: Languages
+  fields:
+  - type: field_group
+    name: en
+    label: en
+    fields:
+    - type: text
+      name: languageName
+      label: languageName
+    - type: text
+      name: languageCode
+      label: languageCode
+    - type: text
+      name: contentDir
+      label: contentDir
+    - type: number
+      name: weight
+      label: weight
+    - type: text
+      name: copyright
+      label: copyright
+    - type: field_group
+      name: menu
+      label: menu
+      fields:
+      - type: field_group_list
+        name: main
+        label: main
+        fields:
+        - type: text
+          name: name
+          label: name
+        - type: text
+          name: URL
+          label: URL
+        - type: number
+          name: weight
+          label: weight
+      - type: field_group_list
+        name: footer
+        label: footer
+        fields:
+        - type: text
+          name: name
+          label: name
+        - type: text
+          name: URL
+          label: URL
+        - type: number
+          name: weight
+          label: weight
+  - type: field_group
+    name: it
+    label: it
+    fields:
+    - type: text
+      name: languageName
+      label: languageName
+    - type: text
+      name: languageCode
+      label: languageCode
+    - type: text
+      name: contentDir
+      label: contentDir
+    - type: number
+      name: weight
+      label: weight
+    - type: text
+      name: copyright
+      label: copyright
+    - type: field_group
+      name: menu
+      label: menu
+      fields:
+      - type: field_group_list
+        name: main
+        label: main
+        fields:
+        - type: text
+          name: name
+          label: name
+        - type: text
+          name: URL
+          label: URL
+        - type: number
+          name: weight
+          label: weight
+      - type: field_group_list
+        name: footer
+        label: footer
+        fields:
+        - type: text
+          name: name
+          label: name
+        - type: text
+          name: URL
+          label: URL
+        - type: number
+          name: weight
+          label: weight
