@@ -23,4 +23,5 @@ fields:
       format: markdown
   label: body
 pages:
+- exampleSite/content/english/research.md
 - exampleSite/content/english/research/research.md
