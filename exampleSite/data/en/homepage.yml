@@ -1,7 +1,7 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/wost.jpg"
+  bg_image : "images/wost.png"
   bg_overlay : true
   title : "PICARDI ECOLOGY" # Movement Ecology<br/>& Reproducible Data Science
   content : "Movement Ecology & Reproducible Data Science"
