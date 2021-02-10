@@ -1,8 +1,8 @@
 ################################# Default configuration ###################
-baseURL = "http://examplesite.org"
-title = "Airspace | Creative Agency Hugo Template"
-theme = "airspace-hugo"
-themesDir = "../.."
+baseURL = "http://picardis.github.io/"
+title = "Picardi Ecology"
+theme = "airspace-hugo" 
+themesDir = "themes"
 # post pagination
 paginate = "4"
 # post excerpt
@@ -75,15 +75,14 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
-logo_width = "150px"
+logo = "images/blank.png" # got rid of logo
+logo_width = "10px" # got rid of logo
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = " "
+author = "Simona Picardi"
 # Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "North Main Street,Brooklyn Australia"
+email = "simona.picardi@usu.edu"
+location = "Logan, UT, USA"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # Google Analitycs
@@ -112,34 +111,26 @@ map_marker = "images/marker.png"
 
 # cookies
 [params.cookies]
-enable = true
-expire_days = 2
+enable = false # changed this to false
+# expire_days = 2
 
 ############################# social site ########################
+
 [[params.social]]
-icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+icon = "ion-social-google-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://scholar.google.it/citations?user=WJ_BqyoAAAAJ&hl=en"
+
+[[params.social]]
+icon = "ion-social-github-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://github.com/picardis/"
 
 [[params.social]]
 icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+link = "https://www.linkedin.com/in/simona-picardi-709271b9/"
 
 [[params.social]]
 icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
+link = "https://twitter.com/simopicardi"
 
 ################################ English Language ########################
 [Languages.en]
@@ -159,162 +150,92 @@ URL = "/"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "About"
-URL = "about"
+name = "People"
+URL = "people"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "Project"
-URL = "project"
+name = "Research"
+URL = "research"
 weight = 3
 
 [[Languages.en.menu.main]]
-name = "Blog"
-URL = "blog"
+name = "Publications"
+URL = "publications"
 weight = 4
 
 [[Languages.en.menu.main]]
 weight = 5
-name = "Pages"
-hasChildren = true
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "FAQ"
-  URL = "faq"
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "Pricing"
-  URL = "pricing"
-
-  [[Languages.en.menu.main]]
-  parent = "Pages"
-  name = "Service"
-  URL = "service"
+name = "Teaching"
+URL = "teaching"
   
 [[Languages.en.menu.main]]
-name = "Contact"
-URL = "contact"
+name = "Outreach"
+URL = "outreach"
 weight = 6
 
+[[Languages.en.menu.main]]
+name = "Software"
+URL = "software"
+weight = 7
 
 # footer menu
-[[Languages.en.menu.footer]]
-name = "About"
-URL = "about"
-weight = 1
-
-[[Languages.en.menu.footer]]
-name = "Project"
-URL = "project"
-weight = 2
-
-[[Languages.en.menu.footer]]
-name = "Service"
-URL = "service"
-weight = 3
-
-[[Languages.en.menu.footer]]
-name = "Pricing"
-URL = "pricing"
-weight = 4
-
-[[Languages.en.menu.footer]]
-name = "FAQ"
-URL = "faq"
-weight = 5
 
 [[Languages.en.menu.footer]]
 name = "Contact"
 URL = "contact"
-weight = 6
+weight = 1
 
-################################ France Language ########################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
+################################ Italy Language ########################
+[Languages.it]
+languageName = "It"
+languageCode = "it-it"
+contentDir = "content/italian"
 weight = 2
 # copyright
 copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
 
 
-######################### france navigation #############################
+######################### italy navigation #############################
 # main menu
-[[Languages.fr.menu.main]]
-name = "Accueil"
+[[Languages.it.menu.main]]
+name = "Home"
 URL = "/"
 weight = 1
 
-[[Languages.fr.menu.main]]
-name = "À propos"
-URL = "about"
+[[Languages.it.menu.main]]
+name = "Chi Siamo"
+URL = "chisiamo"
 weight = 2
 
-[[Languages.fr.menu.main]]
-name = "Projet"
-URL = "project"
+[[Languages.it.menu.main]]
+name = "Ricerca"
+URL = "ricerca"
 weight = 3
 
-[[Languages.fr.menu.main]]
-name = "Blog"
-URL = "blog"
+[[Languages.it.menu.main]]
+name = "Pubblicazioni"
+URL = "pubblicazioni"
 weight = 4
 
-[[Languages.fr.menu.main]]
+[[Languages.it.menu.main]]
 weight = 5
-name = "Pages"
-hasChildren = true
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "FAQ"
-  URL = "faq"
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "Tarification"
-  URL = "pricing"
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "Un service"
-  URL = "service"
+name = "Insegnamento"
+URL = "insegnamento"
   
-[[Languages.fr.menu.main]]
-name = "Contact"
-URL = "contact"
+[[Languages.it.menu.main]]
+name = "Divulgazione"
+URL = "divulgazione"
 weight = 6
+
+[[Languages.it.menu.main]]
+name = "Software"
+URL = "software"
+weight = 7
 
 
 # footer menu
-[[Languages.fr.menu.footer]]
-name = "About"
-URL = "about"
+[[Languages.it.menu.footer]]
+name = "Contatti"
+URL = "contatti"
 weight = 1
-
-[[Languages.fr.menu.footer]]
-name = "Project"
-URL = "project"
-weight = 2
-
-[[Languages.fr.menu.footer]]
-name = "Service"
-URL = "service"
-weight = 3
-
-[[Languages.fr.menu.footer]]
-name = "Pricing"
-URL = "pricing"
-weight = 4
-
-[[Languages.fr.menu.footer]]
-name = "FAQ"
-URL = "faq"
-weight = 5
-
-[[Languages.fr.menu.footer]]
-name = "Contact"
-URL = "contact"
-weight = 6
